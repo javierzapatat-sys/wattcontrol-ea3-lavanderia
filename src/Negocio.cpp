@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 Negocio::Negocio(string nombre, string resp, float potContratada)
     : nombreNegocio(nombre), responsable(resp), potenciaContratada(potContratada),
       numCargas(0), semanaSimulada(false) {
