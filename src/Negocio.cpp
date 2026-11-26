@@ -4,10 +4,6 @@
 
 using namespace std;
 
-const string NOMBRES_DIAS[DIAS_SEMANA] = {
-    "Lunes 21", "Martes 22", "Miercoles 23",
-    "Jueves 24", "Viernes 25", "Sabado 26", "Domingo 27"
-};
 
 Negocio::Negocio(string nombre, string resp, float potContratada)
     : nombreNegocio(nombre), responsable(resp), potenciaContratada(potContratada),

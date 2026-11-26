@@ -10,7 +10,6 @@
 
 using namespace std;
 
-const int MAX_CARGAS = 10;
 
 class Negocio {
 private:
